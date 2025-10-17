@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   base: './', // Makes all paths relative for Salesforce
   build: {
-    outDir: 'build',
+    outDir: "dist",
     assetsDir: 'assets',
     rollupOptions: {
       output: {
